@@ -12,7 +12,6 @@ public class Reference
         _startVerse = verse;
         _endVerse = verse;
     }
-
     public Reference(string book, int chapter, int startVerse, int endVerse)
     {
         _book = book;
@@ -25,7 +24,7 @@ public class Reference
     {
         if (_startVerse == _endVerse)
         {
-            return $"{_book} {_chapter}: {_startVerse}";
+            return $"{_book} {_chapter}:{_startVerse}";
         }
         else
         {
