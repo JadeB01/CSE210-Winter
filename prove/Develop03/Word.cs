@@ -28,6 +28,7 @@ public class Word
         else
         {
             return _text;
+            
         }
     }
 }
